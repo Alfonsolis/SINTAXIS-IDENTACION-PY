@@ -22,3 +22,26 @@ print("Tipo de xf:", type(xf))
 yi = int(y)
 print("y como int:", yi)
 print("Tipo de yi:", type(yi))
+
+# ¿Podemos pasar de números complejos a otros tipos?
+# No, esto generará un error
+# zi = int(z)  # Descomentar esta línea generará un error
+
+# Sin embargo, podemos convertir números complejos a cadenas
+zs = str(z)
+print("z como cadena:", zs)
+print("Tipo de zs:", type(zs))
+
+entero = 5
+flotante = 5.5
+
+enteroComplejo = complex(entero)
+flotanteComplejo = complex(flotante)
+
+print("enteroComplejo:", enteroComplejo)
+print("Tipo de enteroComplejo:", type(enteroComplejo))
+print("flotanteComplejo:", flotanteComplejo)
+print("Tipo de flotanteComplejo:", type(flotanteComplejo))
+
+import random  # noqa: E402
+print(random.randrange(1,10)) # Imprime un número aleatorio entre 1 y 9, incluyendo el 1 pero excluyendo el 10.
