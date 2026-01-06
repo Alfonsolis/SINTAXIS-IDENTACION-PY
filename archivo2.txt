@@ -1,0 +1,2 @@
+Esto se escribe despues de crear el archivo.
+Ahora esto ya existe en el archivo2.txt

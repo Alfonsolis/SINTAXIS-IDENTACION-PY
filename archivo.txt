@@ -1,0 +1,4 @@
+Hola, mundo ahora desde codigo Python!
+Segunda línea escrita desde Python.
+Hola, mundo usando append!
+Esto no va a sobrescribir el archivo.
